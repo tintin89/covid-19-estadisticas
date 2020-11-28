@@ -1,0 +1,38 @@
+.tabla{
+    margin-top:20px;
+    overflow:scroll;
+    height: 400px;
+    color: #6a5d5d;
+    background-color:white;
+
+}
+/*
+.tabla table{
+    width:100%;
+}
+
+.tabla tbody {
+    width:100%;
+}
+
+
+ */
+.tabla tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabla td{
+    padding: 0.5rem;
+    border:none;
+}
+
+
+
+
+.tabla tr:nth-of-type(odd){
+    background-color: #f3f2f8;
+}
+
+
+
